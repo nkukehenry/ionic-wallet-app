@@ -1,0 +1,10 @@
+<div class="container">
+  
+  <h3>{{ message.title || 'Attention'}}</h3>
+  <ion-img *ngIf="!message.success" src="assets/icon/bad.png"></ion-img>
+  <ion-img *ngIf="message.success" src="assets/icon/ok.png"></ion-img>
+  <p>{{  message.message || 'Action completed!' }}</p>
+
+  <ion-button (click)="closeModal()" expand="full">OK</ion-button>
+
+</div>

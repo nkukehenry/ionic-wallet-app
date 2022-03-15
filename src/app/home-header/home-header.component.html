@@ -1,0 +1,37 @@
+<div class="top">
+  <ion-icon name="menu-outline" (click)="toggleMenu()"></ion-icon>
+</div>
+<div class="header">
+  <div class="col-div">
+    <div class="inner">
+      <ion-label class="mylabel">Account Balance</ion-label>
+      <h2>UGX  4,500,600.00</h2>
+    </div>
+  </div>
+
+  <div class="col-div">
+    <div class="inner" >
+      <ion-label>
+        <ion-icon name="add-circle"></ion-icon>
+      </ion-label>
+      <h4>Add Money</h4>
+    </div>
+  </div>
+
+</div>
+
+<div class="actions">
+  <div class="action">
+    <div (click)="sendMoney()">
+      <ion-icon name="arrow-up"></ion-icon>
+      <span>Send Money</span>
+    </div>
+  </div>
+  <div class="action">
+    <div>
+      <span>Get Money</span>
+      <ion-icon name="arrow-down"></ion-icon>
+    </div>
+  </div>
+</div>
+

@@ -1,5 +1,7 @@
 {
   "name": "quickteller",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

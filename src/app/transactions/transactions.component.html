@@ -1,0 +1,28 @@
+<div class="transactions">
+
+  <div class="heading">
+    <div>
+      <h4> Recent Transactions</h4>
+    </div>
+    <div>
+      <h6> View All</h6>
+    </div>
+  </div>
+  <ion-card *ngFor=" let tran of transactions">
+    <div class="transaction ">
+      <ion-avatar slot="start">
+        <ion-icon class="success" *ngIf="(tran.flow==1)" name="arrow-down"></ion-icon>
+        <ion-icon class="danger" *ngIf="(tran.flow==0)" name="arrow-up"></ion-icon>
+      </ion-avatar>
+      <div class="info">
+        <h4>{{ tran.product }}</h4>
+        <p> {{ tran.story }}</p>
+      </div>
+      <div class="date">
+        {{ tran.date }}
+      </div>
+    </div>
+  </ion-card>
+
+
+</div>

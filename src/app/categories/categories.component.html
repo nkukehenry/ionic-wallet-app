@@ -1,0 +1,8 @@
+
+<ion-slides pager="true" [options]="slideOpts" class="categories">
+  <ion-slide class="category" *ngFor=" let cat of categories">
+      <ion-icon name="{{cat.icon}}"></ion-icon>
+      <span>{{ cat.name }}</span>
+  </ion-slide>
+
+</ion-slides>

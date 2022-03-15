@@ -1,0 +1,114 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(9, 30, 61);
+    min-height: 31vh;
+    min-width: 100%;
+    align-items: center;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+  }
+
+  .top{
+      position: absolute;
+      top: 0;
+      color: white;
+      z-index: 2;
+  }
+  .top ion-icon{
+    font-size: 20px;
+    padding: 22px;
+    padding-top: 10px;
+  }
+  
+  .col-div {
+    width: 50%;
+  }
+  .col-div:nth-child(odd){
+      border-right: 1px dotted grey;
+  }
+  .col-div .inner {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .col-div .inner ion-label {
+    padding: 10px;
+    margin: 0;
+    padding-bottom: 5;
+    color: rgb(153, 153, 153);
+    font-weight: lighter;
+  }
+  .col-div .inner h2,
+  .col-div .inner h4 {
+    padding: 10px;
+    color: #fff;
+    margin-top: 0;
+    font-weight: lighter;
+    align-self: center;
+    padding-top: 0;
+    width: 100%;
+  }
+  .col-div .inner h2 {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .col-div .inner h4 {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  .col-div .inner ion-icon {
+    color: #0275d8;
+    font-size: 20pt;
+  }
+  
+  .mylabel {
+    align-self: flex-start;
+  }
+  
+  .actions {
+    display: flex;
+    flex-direction: row;
+    min-width: 100%;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: -25px;
+    z-index: 2;
+  }
+  
+  .action {
+    width: 50%;
+    background-color: rgb(255, 254, 254);
+    min-height: 50px;
+    box-shadow: 1px 1px 3px 1px rgb(214, 214, 214);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .action:nth-child(even) {
+    padding-right: 5px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  
+  .action:nth-child(odd) {
+      padding-left:5px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+  }
+  .action div ion-icon {
+    color: #0275d8;
+    font-weight: bold;
+  }
+  .action div span {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12pt;
+  }
+  

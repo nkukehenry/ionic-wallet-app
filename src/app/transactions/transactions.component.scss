@@ -1,0 +1,75 @@
+.transactions {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .danger {
+    color: rgb(175, 10, 10);
+  }
+  
+  .success {
+    color: green;
+  }
+  ion-card{
+      margin: 5px;
+  }
+  .transaction {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    align-items: center;
+    width: 100%;
+  }
+  .heading {
+    padding-left: 15px;
+    padding-right: 20px;
+    color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(204, 203, 203);
+  }
+  .heading h4 {
+    font-size: 10pt;
+  }
+  .heading h6 {
+    font-size: 8pt;
+    font-weight: lighter;
+  }
+  ion-card {
+    border-radius: 6px;
+  }
+  .transaction ion-avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgb(194, 194, 194);
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  
+  .transaction .info {
+    width: 60%;
+  }
+
+  .transaction .info h4 {
+    font-size: 12pt;
+  }
+  
+  .transaction p {
+    color: grey;
+    font-weight: lighter;
+    font-size: 9pt;
+  }
+  
+  .transaction .date {
+    text-align: right;
+    width: 20%;
+    color: grey;
+    font-weight: lighter;
+    font-size: 8pt;
+  }
+  
